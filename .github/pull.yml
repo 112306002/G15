@@ -1,5 +1,5 @@
 version: "1"
 rules:
-  - upstream: owner:main    # CHANGE THIS: Replace 'owner' with original username, 'main' with their branch name
-    target: main           # Your fork's branch name
+  - upstream: 112306002:koc-frontend    # CHANGE THIS: Replace 'owner' with original username, 'main' with their branch name
+    target: koc-frontend           # Your fork's branch name
     mergeMethod: merge     # Keeps your fork perfectly identical
